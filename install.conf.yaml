@@ -15,6 +15,9 @@
         glob: true
         path: oh-my-zsh/custom/*
 
+- tap:
+    - caskroom/fonts
+
 - brew:
     - zsh
     - nvm
@@ -23,9 +26,6 @@
     - go
     - pspg
     - ripgrep
-
-- tap:
-    - caskroom/fonts
 
 - cask:
     - iterm2
