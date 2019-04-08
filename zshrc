@@ -1,10 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 
-source /Users/meepshop/google-cloud-sdk/path.zsh.inc
-source /Users/meepshop/google-cloud-sdk/completion.zsh.inc
-
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/meepshop/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
