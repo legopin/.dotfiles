@@ -58,7 +58,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git nvm kubectl docker-compose tldr z
+  git nvm kubectl docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
