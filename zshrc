@@ -69,7 +69,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$HOME/bin:/usr/local/bin:/:/Users/meepshop/Repos/arcanist/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/:$HOME/tools/arcanist/bin:$PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
