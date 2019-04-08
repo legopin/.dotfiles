@@ -1,10 +1,39 @@
-- clean: ['~']
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~"]
 
 - link:
-    ~/.gitconfig: gitconfig
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
-    ~/.zshrc: zshrc
+  ~/.gitconfig: gitconfig
+  ~/.ssh/config: ssh/config
+  ~/.zshrc: zshrc
+  ~/.config/pgcli/config: .config/pgcli/config
+  ~/Library/Application Support/iTerm2: iterm2-profile
 
 
+- brew:
+  - zsh
+  - nvm
+  - pgcli
+  - k6
+  - go
+  - pspg
+  - ripgrep
+
+- tap:
+  - caskroom/fonts
+
+- cask:
+  - iterm2
+  - google-chrome
+  - visual-studio-code
+  - graphql-playground
+  - pgadmin4
+  - insomnia
+  - 1password
+  - font-sourcecodepro-nerd-font
+
+- shell:
+  - [bash ./oh-my-zsh/install.sh, Installing oh-my-zsh]
