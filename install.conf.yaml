@@ -11,7 +11,9 @@
   ~/.zshrc: zshrc
   ~/.config/pgcli/config: .config/pgcli/config
   ~/Library/Application Support/iTerm2: iterm2-profile
-
+  ~/.oh-my-zsh/custom: 
+    glob: true
+    path: oh-my-zsh/custom/*
 
 - brew:
   - zsh
