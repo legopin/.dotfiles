@@ -1,8 +1,6 @@
 {
-  "profiles": [
+  "Profiles": [
     {
-      "Name": "Sean",
-      "Guid": "09CAFBA5-D2B9-46C9-8CC9-ED73AE6295B0",
       "Ansi 6 Color": {
         "Green Component": 0.570823609828949,
         "Red Component": 0.1467953473329544,
@@ -14,28 +12,24 @@
         "Red Component": 0.09199663996696472,
         "Blue Component": 0.7839322686195374
       },
-      "Custom Directory": "No",
+      "Horizontal Spacing": 1,
       "Normal Font": "SauceCodeProNerdFontComplete-Regular 14",
       "Bold Color": {
         "Green Component": 0.8345006704330444,
         "Red Component": 0.7091325521469116,
         "Blue Component": 0.8268711566925049
       },
-      "Ansi 2 Color": {
-        "Green Component": 0.7455558180809021,
-        "Red Component": 0.4233920872211456,
-        "Blue Component": 0.4240939915180206
-      },
       "Ansi 3 Color": {
         "Green Component": 0.4675142467021942,
         "Red Component": 0.6474647521972656,
         "Blue Component": 0.02348481118679047
       },
-      "Ansi 5 Color": {
-        "Green Component": 0.1080246344208717,
-        "Red Component": 0.7773894071578979,
-        "Blue Component": 0.4351663589477539
+      "Ansi 4 Color": {
+        "Green Component": 0.462659478187561,
+        "Red Component": 0.1275488436222076,
+        "Blue Component": 0.7823141813278198
       },
+      "Right Option Key Sends": 0,
       "Rows": 25,
       "Default Bookmark": "No",
       "Cursor Guide Color": {
@@ -294,7 +288,7 @@
         "Red Component": 0,
         "Blue Component": 0.6201876997947693
       },
-      "Name": "Default",
+      "Name": "Sean",
       "Cursor Text Color": {
         "Green Component": 0.155759260058403,
         "Red Component": 0,
@@ -306,8 +300,6 @@
         "Red Component": 0.9547511339187622,
         "Blue Component": 0
       },
-      "Transparency": 0,
-      "Guid": "091DBC27-81BC-4A54-BB7E-5F3C90B8F865",
       "Ansi 0 Color": {
         "Green Component": 0.155759260058403,
         "Red Component": 0,
@@ -318,13 +310,23 @@
         "Red Component": 0.8192697763442993,
         "Blue Component": 0.1414571404457092
       },
-      "Horizontal Spacing": 1,
+      "Custom Directory": "No",
       "Link Color": {
         "Red Component": 0,
         "Color Space": "sRGB",
         "Blue Component": 0.734233021736145,
         "Alpha Component": 1,
         "Green Component": 0.3591606020927429
+      },
+      "Ansi 2 Color": {
+        "Green Component": 0.7455558180809021,
+        "Red Component": 0.4233920872211456,
+        "Blue Component": 0.4240939915180206
+      },
+      "Ansi 5 Color": {
+        "Green Component": 0.1080246344208717,
+        "Red Component": 0.7773894071578979,
+        "Blue Component": 0.4351663589477539
       },
       "Use Non-ASCII Font": false,
       "Ansi 7 Color": {
@@ -342,12 +344,8 @@
         "Red Component": 0.9594110250473022,
         "Blue Component": 0.2322575747966766
       },
-      "Ansi 4 Color": {
-        "Green Component": 0.462659478187561,
-        "Red Component": 0.1275488436222076,
-        "Blue Component": 0.7823141813278198
-      },
-      "Right Option Key Sends": 0
+      "Transparency": 0,
+      "Guid": "091DBC27-81BC-4A54-BB7E-5F3C90B8F865"
     }
   ]
 }
