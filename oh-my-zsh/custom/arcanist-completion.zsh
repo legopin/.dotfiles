@@ -1,0 +1,1 @@
+source $HOME/tools/arcanist/resources/shell/bash-completion
