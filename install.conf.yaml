@@ -36,6 +36,3 @@
   - insomnia
   - 1password
   - font-sourcecodepro-nerd-font
-
-- shell:
-  - [bash ./oh-my-zsh/install.sh, Installing oh-my-zsh]
