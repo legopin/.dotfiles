@@ -27,6 +27,8 @@
     - go
     - pspg
     - ripgrep
+    - jq
+    - httpie
 
 - cask:
     - iterm2
