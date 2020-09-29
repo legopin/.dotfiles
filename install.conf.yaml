@@ -23,7 +23,7 @@
     
 
 - tap:
-    - caskroom/fonts
+    - homebrew/cask-fonts
 
 - brew:
     - starship
