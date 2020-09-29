@@ -41,6 +41,7 @@
     - tmux
     - coreutils
     - k9s
+    - findutils
     
 
 - cask:
