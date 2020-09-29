@@ -23,32 +23,32 @@
     
 
 - tap:
-    caskroom/fonts
+    - caskroom/fonts
 
 - brew:
-    starship
-    bat
-    nvm
-    pgcli
-    k6
-    go
-    pspg
-    ripgrep
-    jq
-    httpie
-    tealdeer
-    skaffold
+    - starship
+    - bat
+    - nvm
+    - pgcli
+    - k6
+    - go
+    - pspg
+    - ripgrep
+    - jq
+    - httpie
+    - tealdeer
+    - skaffold
     
 
 - cask:
-    alacritty
-    google-chrome
-    brave-browser
-    visual-studio-code
-    graphql-playground
-    pgadmin4
-    insomnia
-    1password
-    font-sourcecodepro-nerd-font
-    spotify
-    rectangle
+    - alacritty
+    - google-chrome
+    - brave-browser
+    - visual-studio-code
+    - graphql-playground
+    - pgadmin4
+    - insomnia
+    - 1password
+    - font-sourcecodepro-nerd-font
+    - spotify
+    - rectangle
