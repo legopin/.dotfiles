@@ -43,6 +43,7 @@
     - k9s
     - findutils
     - gh
+    - neovim
     
 
 - cask:
