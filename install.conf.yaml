@@ -38,6 +38,9 @@
     - httpie
     - tealdeer
     - skaffold
+    - tmux
+    - coreutils
+    - k9s
     
 
 - cask:
@@ -52,3 +55,4 @@
     - font-sauce-code-pro-nerd-font
     - spotify
     - rectangle
+    - stretchly
