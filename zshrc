@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME=""
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -61,12 +61,16 @@ plugins=(
   git nvm kubectl docker-compose
 )
 
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$HOME/bin:/usr/local/bin:/:$HOME/tools/arcanist/bin:$PATH
+export PATH=/usr/local/opt/findutils/libexec/gnubin:$HOME/bin:/usr/local/bin:/:$HOME/tools/arcanist/bin:$PATH
 
 DEFAULT_USER=`whoami`
 
@@ -101,3 +105,8 @@ DEFAULT_USER=`whoami`
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+eval "$(starship init zsh)" 
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERMINFO=/usr/share/terminfo
+export EDITOR=nvim

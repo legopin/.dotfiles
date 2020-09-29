@@ -6,21 +6,28 @@
 
 - clean: ["~"]
 
+- create:
+    - ~/repo
+
 - link:
     ~/.gitconfig: gitconfig
     ~/.ssh/config: ssh/config
     ~/.zshrc: zshrc
+    ~/.config/alacritty/alacritty.yml: .config/alacritty/alacritty.yml
     ~/.config/pgcli/config: .config/pgcli/config
-    ~/Library/Application Support/iTerm2/DynamicProfiles/sean: iterm2-profile
+    ~/.config/starship.toml: .config/starship.toml
     ~/.oh-my-zsh/custom:
         glob: true
         path: oh-my-zsh/custom/*
+    ~/Library/Application Support/Code/User/settings.json: vscode-user-settings.json
+    
 
 - tap:
     - caskroom/fonts
 
 - brew:
-    - zsh
+    - starship
+    - bat
     - nvm
     - pgcli
     - k6
@@ -29,13 +36,19 @@
     - ripgrep
     - jq
     - httpie
+    - tealdeer
+    - skaffold
+    
 
 - cask:
-    - iterm2
+    - alacritty
     - google-chrome
+    - brave-browser
     - visual-studio-code
     - graphql-playground
     - pgadmin4
     - insomnia
     - 1password
     - font-sourcecodepro-nerd-font
+    - spotify
+    - rectangle

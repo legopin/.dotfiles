@@ -1,17 +1,10 @@
 [core]
 	excludesfile = /Users/meepshop/.gitignore_global
-	editor = nano
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	editor = nvim
+	pager = less -r
 [user]
 	name = Sean Yuan
 	email = sean@meepshop.com
-[commit]
-	template = /Users/meepshop/.stCommitMsg
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -22,3 +15,5 @@
 	driver = npx npm-merge-driver merge %A %O %B %P
 [credential]
 	helper = osxkeychain
+[i18n]
+	logoutputencoding = utf-8
