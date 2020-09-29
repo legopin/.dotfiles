@@ -1,1 +1,1 @@
-source $HOME/tools/arcanist/resources/shell/bash-completion
+source ~/tools/arcanist/support/shell/rules/bash-rules.sh
