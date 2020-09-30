@@ -20,7 +20,7 @@
         glob: true
         path: oh-my-zsh/custom/*
     ~/Library/Application Support/Code/User/settings.json: vscode-user-settings.json
-    
+    ~/.tmux.config: .tmux.config
 
 - tap:
     - homebrew/cask-fonts
