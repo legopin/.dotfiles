@@ -7,7 +7,7 @@
 - clean: ["~"]
 
 - create: 
-    ~/repo
+    - ~/repo
 
 - link:
     ~/.gitconfig: gitconfig
@@ -20,7 +20,7 @@
         glob: true
         path: oh-my-zsh/custom/*
     ~/Library/Application Support/Code/User/settings.json: vscode-user-settings.json
-    ~/.tmux.config: .tmux.config
+    ~/.tmux.conf: .tmux.conf
 
 - tap:
     - homebrew/cask-fonts
