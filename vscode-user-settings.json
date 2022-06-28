@@ -1,25 +1,37 @@
 {
-    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": 1,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "cSpell.userWords": [
-        "Imgproxy",
-        "Repo",
-        "Upsert",
-        "graphql",
-        "jsonb"
-    ],
-    "terminal.external.osxExec": "Alacritty.app",
-    "workbench.colorCustomizations": {
-        "terminal.background": "#2e3440",
+  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "api",
+    "es",
+    "graphql",
+    "Imgproxy",
+    "init",
+    "js",
+    "jsonb",
+    "meepshop",
+    "meepshop api",
+    "microservice",
+    "microservice product es sync script init pubsub js",
+    "product",
+    "pubsub",
+    "Repo",
+    "script",
+    "sync",
+    "Upsert",
+    "zulip"
+  ],
+  "terminal.external.osxExec": "Alacritty.app",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#2e3440",
     "terminal.foreground": "#d8dee9",
     "terminal.ansiBlack": "#3b4252",
     "terminal.ansiRed": "#bf616a",
@@ -36,12 +48,54 @@
     "terminal.ansiBrightBlue": "#81a1c1",
     "terminal.ansiBrightMagenta": "#b48ead",
     "terminal.ansiBrightCyan": "#8fbcbb",
-    "terminal.ansiBrightWhite": "#eceff4",
-    },
-    "editor.fontFamily": "'SauceCodePro', Menlo, Monaco, 'Courier New', monospace",
-    "extensions.ignoreRecommendations": true,
-    "shellformat.flag": "-bn",
-    "[yaml]": {
-        "editor.defaultFormatter":"redhat.vscode-yaml"
-    }
+    "terminal.ansiBrightWhite": "#eceff4"
+  },
+  "editor.fontFamily": "'SauceCodePro', Menlo, Monaco, 'Courier New', monospace",
+  "extensions.ignoreRecommendations": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true
+  },
+  "yaml.schemaStore.enable": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/kustomization": ["kustomization.yaml"]
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useEditorConfig": false,
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "vs-kubernetes.namespace": "",
+    "vs-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+    "vs-kubernetes.minikube-path": "",
+    "vs-kubernetes.kubectlVersioning": "user-provided",
+    "vs-kubernetes.outputFormat": "yaml",
+    "vs-kubernetes.kubeconfig": "",
+    "vs-kubernetes.knownKubeconfigs": [],
+    "vs-kubernetes.autoCleanupOnDebugTerminate": false,
+    "vs-kubernetes.nodejs-autodetect-remote-root": true,
+    "vs-kubernetes.nodejs-remote-root": "",
+    "vs-kubernetes.nodejs-debug-port": 9229,
+    "vs-kubernetes.local-tunnel-debug-provider": "",
+    "checkForMinikubeUpgrade": true,
+    "imageBuildTool": "Docker"
+  },
+  "files.associations": {
+    ".git-blame-ignore-revs": "plaintext"
+  },
+  "editor.formatOnSave": true,
+  "gitlens.advanced.abbreviatedShaLength": 8,
+  "gitlens.hovers.currentLine.over": "line",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "graphql"
+  ],
+  "dupchecker.checkAllFilesExclude": "**/__tests__/**/*,**/__test__/**/*,package-lock.json,migration/**/*",
+  "dupchecker.checkAllFilesInclude": "{package,microservice}/**/*.js",
+  "dupchecker.checkAllFilesNumLimit": 500,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1
 }
